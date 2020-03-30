@@ -25,6 +25,9 @@ client_scripts {
 }
 
 server_scripts {
+	'@async/async.lua',
+	'@mysql-async/lib/MySQL.lua',
+	
 	'@es_extended/locale.lua',
 
 	'config.lua',
@@ -35,4 +38,5 @@ server_scripts {
 
 dependencies {
 	'es_extended',
+	'async'
 }

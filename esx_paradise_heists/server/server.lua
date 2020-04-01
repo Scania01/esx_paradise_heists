@@ -8,6 +8,7 @@ RegisterNetEvent('ps:canHackResult')
 RegisterNetEvent("ps:heistsAll")
 RegisterNetEvent("ps:startTimer")
 RegisterNetEvent("ps:cleanupVault")
+RegisterNetEvent("ps:sendInfo")
 
 local heistTerminals = Config.Terminals
 local heistPlayers = {}

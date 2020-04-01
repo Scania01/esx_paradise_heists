@@ -4,6 +4,9 @@ Fleeca Bank Heisty pro FiveM od českého vývojáře
 Ukázka:
 https://streamable.com/qvc26
 
+Stažení:
+https://github.com/m0uka/esx_paradise_heists/archive/master.zip
+
 Funkce:
 - Vše v češtině
 - Hackování a drillování jako z GTA: Online
